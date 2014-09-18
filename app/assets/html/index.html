@@ -8,13 +8,16 @@
 		<script src="exporting.jsf"></script>
 		<script type="text/javascript">
 			function plotChart(title, cat, data) {
-		        Ti.API.info('Webview: plotChart()');
+		        
 		        new Highcharts.Chart({
 					chart: {
 						renderTo: 'container',
 						backgroundColor: null,
 						plotBackgroundColor: null,
 		                type: 'line'
+		            },
+		            exporting:{
+		            	enabled:false
 		            },
 		            credits:{
 						enabled:false
