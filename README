@@ -1,3 +1,5 @@
+**UPDATE:** Use our fork of this widget instead: https://github.com/foolprooflabs/TiAlloyCharts/
+
 This is a simple app that shows how to pass data from Titanium to a HighCharts Chart displayed in a WebView.
 
 
