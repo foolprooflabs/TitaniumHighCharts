@@ -1,5 +1,6 @@
 This is a simple app that shows how to pass data from Titanium to a HighCharts Chart displayed in a WebView.
 
+
 Based on this http://www.appcelerator.com/blog/2013/09/interactive-charts-in-appcelerator-titanium/ but not using ACS to fetch the data
 
 Will not load with TiShadow on Android.  Check this issue for updates: https://github.com/dbankier/TiShadow/issues/30 renaming the JS files inside the HTML to anything but .js (e.g. .jsf as I've done here) makes TiShadow work on iOS though.
